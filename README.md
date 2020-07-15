@@ -1,13 +1,11 @@
 # Virtual_IMRT_QA
 
 <h1>Minimax demonstration</h1>
-<img src="figures/LS_model_11.png" width="500" />
-<img src="figures/MM_model_11.png" width="500" />
+<img src="figures/LS_model_11.png" width="400" /> <img src="figures/MM_model_11.png" width="400" />
 
 
 <h1>Different normalizations</h1>
-<img src="figures/normalization_eq.gif" width="150" />
-<img src="figures/normalization_result_2.gif" width="500" />
+<img src="figures/normalization_eq.gif" width="150" /> <img src="figures/normalization_result_2.gif" width="500" />
 
 <h1>Bias-Variance Analysis</h1>
 
