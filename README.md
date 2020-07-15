@@ -1,7 +1,7 @@
 # Virtual_IMRT_QA
 
 <h1>Minimax demonstration</h1>
-<img src="figures/LS_model_11.png" width="400" /> <img src="figures/MM_model_11.png" width="400" />
+![]<img src="figures/LS_model_11.png" width="400" />  ![]<img src="figures/MM_model_11.png" width="400" />
 
 
 <h1>Different normalizations</h1>
