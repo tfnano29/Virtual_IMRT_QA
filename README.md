@@ -25,5 +25,6 @@
 </p>
 
 <h1>Bias-Variance Analysis</h1>
+<img src="figures/Bias_Variance_L2_15_Inf.png" width="800"/>
 
 <h1>Key Findings</h1>
