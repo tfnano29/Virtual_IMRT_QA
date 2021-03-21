@@ -1,4 +1,4 @@
-# Effects of L-Norm loss fuctions on Virtual IMRT QA prediction rates
+# Effects of L-Norm loss fuctions on Virtual IMRT QA
 
 <h1>In-sample performance of L2 and L-infinity (Minimax)</h1>
 <p float="left">
@@ -7,9 +7,9 @@
 </p>
 
 <h1>Prediction errors for various L-Norm loss functions</h1>
-<table>
+<table border="none">
    <tr>
-      <td><img src="figures/normalization_eq.gif" width="150" /></td>
+      <td width="400"><img src="figures/normalization_eq.gif" width="150" /></td>
       <td><img src="figures/normalization_result_2.gif" width="400" /></td>
    </tr>
 </table>
