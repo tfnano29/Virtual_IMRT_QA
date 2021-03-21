@@ -48,6 +48,6 @@
 <h1>Key Findings</h1>
 <ul>
    <li>Comparison of different L-norm optimized models shows that ordinary least-squares (L2-norm) performs best for out-of-sample performance and Minimax (L-infinity norm) performs best of in-sample testing or under ideal conditions.</li>
-   <li>Chebyshev’s minimax optimization aims to reduce the maximum error, and is therefore the natural selection for quality assurance metrics, however, we show that out-of-sample performance with high-order $\ell_2$-norm like Minimax has a large bias due to the variability of outliers between training and testing datasets.</li>
+   <li>Chebyshev’s minimax optimization aims to reduce the maximum error, and is therefore the natural selection for quality assurance metrics, however, we show that out-of-sample performance with high-order L2-norm like Minimax has a large bias due to the variability of outliers between training and testing datasets.</li>
    <li>Efficient Virtual IMRT QA programs that ensure safe IMRT treatments should use L2-norm optimization to identify plans that are likely to fail QA criteria.</li>
 </ul>
