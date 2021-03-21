@@ -1,4 +1,7 @@
 # Effects of L-Norm loss fuctions on Virtual IMRT QA
+<p float="left" width="800">
+   The purpose of this work is to compare the models resulting from using the mean squared error or the maximum possible error (max-error)  as a loss function. Our hypothesis was that reducing the mean error over the population, as done when using low-order norms, may not be appropriate because we might incur big errors for specific plans. Reducing the maximum possible error (max-error), as done when using Chebyshev Minimax or high-order norms, may help ensure that all plans are still predicted within a boundary at the cost of a increased mean error over the whole population.The purpose of this work is to compare the models resulting from using the mean squared error or the maximum possible error (max-error)  as a loss function. Our hypothesis was that reducing the mean error over the population, as done when using low-order norms, may not be appropriate because we might incur big errors for specific plans. Reducing the maximum possible error (max-error), as done when using Chebyshev Minimax or high-order norms, may help ensure that all plans are still predicted within a boundary at the cost of a increased mean error over the whole population.
+</p>
 
 <h1>In-sample performance of L2 and L-infinity (Minimax)</h1>
 <p float="left">
