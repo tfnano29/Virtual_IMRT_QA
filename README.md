@@ -10,7 +10,10 @@
 <img src="figures/normalization_eq.gif" width="150" /> <img src="figures/normalization_result_2.gif" width="500" />
 
 <h1>Out-of-sample performance</h1>
-<img src="figures/LNorm_train.tiff"/>
+<p float="left">
+   <img src="figures/LNorm_train.png" width="400"/>
+   <img src="figures/LNorm_test.png" width="400"/>
+</p>
 
 <h1>Bias-Variance Analysis</h1>
 
