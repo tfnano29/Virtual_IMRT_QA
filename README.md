@@ -3,16 +3,16 @@
    The purpose of this work is to compare the models resulting from using the mean squared error or the maximum possible error (max-error)  as a loss function. Our hypothesis was that reducing the mean error over the population, as done when using low-order norms, may not be appropriate because we might incur big errors for specific plans. Reducing the maximum possible error (max-error), as done when using Chebyshev Minimax or high-order norms, may help ensure that all plans are still predicted within a boundary at the cost of a increased mean error over the whole population.
 </p>
 
-<h1>In-sample performance of L2 and L-infinity (Minimax)</h1>
+<h1>In-sample performance with L2 and L-infinity (Minimax)</h1>
 <p>
-   Predicted and actual (measured) passing rate for OLS (top-left) and Minimax (top-right) models. Solid line is the perfect agreement line and +/-3% are dashed lines, showing that no plans pass this threshold with the MM model.
-</p>
-<p float="left">
-  <img src="figures/LS_model_11.png" width="400" />
-  <img src="figures/MM_model_11.png" width="400" />
+   Predicted and actual (measured) passing rate for OLS (top-left) and Minimax (top-right) models. Solid line is the perfect agreement line and +/-3% are dashed lines, showing that no plans pass this threshold with the MM model. Features of importance for OLS (bottom-left) and Minimax (bottom-right) models shows the two most important features for both models are ‘AvgArea’ and ‘Average MLC Aperture'.
 </p>
 
-<h1>Prediction errors for various L-Norm loss functions</h1>
+<p float="left">
+  <img src="figures/Figure1_pred_features.png" width="800" />
+</p>
+
+<h1>In-sample performance with various L-Norm loss functions</h1>
 <p>
    Prediction error histograms from models using variou normalizations (L1 - L100). A larger number of predictions have zero error with low order Norms (L1 and L2), however, a narrower spread were found with higher order Norms (>L15) indicating a lower max error and fewer outliers.
 </p>
