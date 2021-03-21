@@ -7,7 +7,7 @@
 </p>
 
 <h1>Prediction errors for various L-Norm loss functions</h1>
-<table border="none">
+<table border="0px">
    <tr>
       <td width="400"><img src="figures/normalization_eq.gif" width="150" /></td>
       <td><img src="figures/normalization_result_2.gif" width="400" /></td>
