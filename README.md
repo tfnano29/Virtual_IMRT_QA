@@ -19,7 +19,7 @@
 
 <table border="0px">
    <tr>
-      <td width="400">L-Norm = argmin <img src="figures/normalization_eq.gif" width="150" /></td>
+      <td width="400">L-Norm = argmin <br/><img src="figures/normalization_eq.gif" width="150" /></td>
       <td><img src="figures/normalization_result_2.gif" width="400" /></td>
    </tr>
 </table>
