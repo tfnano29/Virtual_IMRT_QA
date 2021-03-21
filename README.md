@@ -5,7 +5,7 @@
 
 <h1>In-sample performance of L2 and L-infinity (Minimax)</h1>
 <p>
-   Predicted and actual (measured) passing rate for OLS (top-left) and Minimax (top-right) models. Solid line is the perfect agreement line and $\pm$3\% are dashed lines, showing that no plans pass this threshold with the MM model.
+   Predicted and actual (measured) passing rate for OLS (top-left) and Minimax (top-right) models. Solid line is the perfect agreement line and +/-3% are dashed lines, showing that no plans pass this threshold with the MM model.
 </p>
 <p float="left">
   <img src="figures/LS_model_11.png" width="400" />
@@ -14,7 +14,7 @@
 
 <h1>Prediction errors for various L-Norm loss functions</h1>
 <p>
-   Prediction error histograms from models using normalizations $\ell_1$, $\ell_2$ (OLS), $\ell_{15}$, $\ell_{50}$, $\ell_{100}$ and $\ell_\infty$ (Minimax). A larger number of predictions have zero error with low order Norms ($\ell_1$ and $\ell_2$), however, a narrower spread were found with higher order Norms (Minimax) indicating a lower max error and fewer outliers.
+   Prediction error histograms from models using variou normalizations (L1 - L100). A larger number of predictions have zero error with low order Norms (L1 and L2), however, a narrower spread were found with higher order Norms (>L15) indicating a lower max error and fewer outliers.
 </p>
 
 <table border="0px">
